@@ -201,12 +201,12 @@ int main() {
         switch (n)
         {
         case 1:
-            cout << "Input Student choice : ";
+            cout << "Input Student ID : ";
             cin >> choice;
             PrintScore(choice, student);
             break;
         case 2:
-            cout << "Input Student choice : ";
+            cout << "Input Student ID : ";
             cin >> choice;
             PrintAverage(choice, student);
             break;
